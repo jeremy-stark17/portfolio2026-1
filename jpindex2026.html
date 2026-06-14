@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jeremiah Pothula | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="jpstyle2026.css" />
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div id="loader">
+    <!-- Click to enter screen -->
+    <div id="enter-screen">
+      <div class="enter-content">
+        <p class="enter-eyebrow">Welcome to</p>
+        <h1 class="enter-name">Jeremiah Pothula's<br><span class="portfolio">Portfolio</span></h1>
+        <button id="enter-btn">Enter <span>⚡</span></button>
+      </div>
+    </div>
+    <canvas id="loader-canvas"></canvas>
+    <div id="loader-core">JP</div>
+    <div id="loader-flash"></div>
+    <canvas id="loader-thunder"></canvas>
+  </div>
+
+  <!-- ===== SIDE NAV ===== -->
+  <nav class="sidenav">
+    <div class="sidenav-logo">JP</div>
+    <ul class="sidenav-links">
+      <li><a href="#hero"       class="nav-link active" data-section="hero">Home</a></li>
+      <li><a href="#about"      class="nav-link" data-section="about">About</a></li>
+      <li><a href="#skills"     class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#education"  class="nav-link" data-section="education">Education</a></li>
+      <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+      <li><a href="#projects"   class="nav-link" data-section="projects">Projects</a></li>
+      <li><a href="#connect"    class="nav-link" data-section="connect">Contact</a></li>
+    </ul>
+    <div class="sidenav-bottom">
+      <a href="Jeremiah_P_2026_Resume_3.pdf" target="_blank" class="resume-link">CV <span class="arrow">↗</span></a>
+      <div class="theme-toggle" id="themeToggle" title="Toggle theme">
+        <i class="fas fa-circle-half-stroke"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Software Engineer · Backend Specialist</p>
+      <h1 class="hero-name glitch" data-text="Jeremiah Pothula">Jeremiah Pothula</h1>
+      <p class="hero-tagline">Ph.D. Student | M.S. Grad | Tech Enthusiast</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn-primary">View Work</a>
+        <a href="#connect" class="btn-ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-number">01</span>
+        <h2 class="section-title">About</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">I'm a self-taught Software and Mobile App Developer who lives at the intersection of clean code, thoughtful design, and real-world impact.</p>
+          <p>I specialize in backend systems and microservices — building the kind of infrastructure that quietly powers great products. I take user experience seriously even when writing server-side code, because good systems are designed with the people who rely on them in mind.</p>
+          <p>Currently pursuing PhD program while focusing on backend development and optimum microservices architectures — systems that scale, survive, and support applications without getting in the way.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat-block">
+            <span class="stat-val">5+</span>
+            <span class="stat-label">Years building</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-val">20+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-val">MS</span>
+            <span class="stat-label">Gold Medalist · ASU</span>
+          </div>
+          <div class="stat-block">
+            <span class="stat-val">35%</span>
+            <span class="stat-label">Engagement lift · Healthcare project</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-dark">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-number">02</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills-categories">
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Languages</h3>
+          <div class="skill-list">
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java"><span>Java</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python"><span>Python</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JavaScript</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" alt="Dart"><span>Dart</span></div>
+            <div class="skill-item"><i class="devicon-azuresqldatabase-plain colored skill-icon-dev"></i><span>SQL</span></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Frameworks</h3>
+          <div class="skill-list">
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="Spring Boot"><span>Spring Boot</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React.js"><span>React.js</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" alt="Angular"><span>Angular</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" alt="Flutter"><span>Flutter</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg" alt="Django"><span>Django</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js"><span>Node.js</span></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Cloud & DevOps</h3>
+          <div class="skill-list">
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS"><span>AWS</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original.svg" alt="GCP"><span>GCP</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" alt="Azure"><span>Azure</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker"><span>Docker</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes"><span>Kubernetes</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jenkins/jenkins-original.svg" alt="Jenkins"><span>Jenkins</span></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-cat-title">Databases</h3>
+          <div class="skill-list">
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL"><span>MySQL</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB"><span>MongoDB</span></div>
+            <div class="skill-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"><span>PostgreSQL</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-number">03</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="edu-row">
+        <div class="edu-left-col">
+          <div class="edu-year-range">2026 – 2030</div>
+          <img src="WBU logo.png" alt="Wayland Baptist University" class="edu-logo edu-logo-wbu" />
+        </div>
+        <div class="edu-details">
+          <h3 class="edu-degree">PhD in Management for Enterprise Systems (STEM)</h3>
+          <p class="edu-school">Wayland Baptist University</p>
+          <p class="edu-note">In Progress</p>
+          <div class="edu-award edu-award-active">🎓 Currently Enrolled</div>
+        </div>
+        <div class="edu-img-wrap"></div>
+      </div>
+
+      <div class="edu-row">
+        <div class="edu-left-col">
+          <div class="edu-year-range">2021 – 2023</div>
+          <img src="asu-seeklogo.png" alt="Arizona State University" class="edu-logo edu-logo-asu" />
+        </div>
+        <div class="edu-details">
+          <h3 class="edu-degree">Master of Science in Information Technology</h3>
+          <p class="edu-school">Arizona State University · Tempe, Arizona</p>
+          <p class="edu-note">Graduated May 2023 · GPA: 4.0/4.0</p>
+          <div class="edu-award">🏅 Gold Medalist</div>
+        </div>
+        <div class="edu-img-wrap">
+          <img src="grad-image.jpg" alt="Graduation" class="edu-img" />
+        </div>
+      </div>
+
+      <div class="edu-row">
+        <div class="edu-left-col">
+          <div class="edu-year-range">2016 – 2020</div>
+          <img src="gvplogo.png" alt="Gayatri Vidya Parishad School of Engineering" class="edu-logo edu-logo-gvp" />
+        </div>
+        <div class="edu-details">
+          <h3 class="edu-degree">Bachelor of Technology in Computer Science</h3>
+          <p class="edu-school">Gayatri Vidya Parishad School of Engineering · Visakhapatnam, India</p>
+          <p class="edu-note">Graduated October 2020 · GPA: 7.37/10</p>
+        </div>
+        <div class="edu-img-wrap"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience" class="section section-dark">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-number">04</span>
+        <h2 class="section-title">Experience</h2>
+      </div>
+      <div class="projects-list">
+
+        <div class="project-row">
+          <div class="project-meta">
+            <span class="project-tag">T-Mobile</span>
+            <span class="project-year">Dec 2025 – Present</span>
+            <img src="tmobile logo.png" alt="T-Mobile" class="exp-logo" />
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Software Engineer</h3>
+            <p class="project-desc">Dallas, Texas. Built Python-based backend microservices and REST APIs in production. Deployed and managed containerized services using Docker and Kubernetes. Implemented observability dashboards with Grafana and AWS CloudWatch. Reduced QA cycles by 45% via Appium testing and bugs by 30% with Jest and Selenium. Leveraged Temporal for workflow orchestration and integrated Hibernate with Spring for Oracle database persistence.</p>
+            <div class="project-stack">Python · Docker · Kubernetes · AWS CloudWatch · Grafana · Spring Boot · Hibernate · ActiveMQ</div>
+          </div>
+        </div>
+
+        <div class="project-row">
+          <div class="project-meta">
+            <span class="project-tag">First Tech Federal Credit Union</span>
+            <span class="project-year">Jul 2024 – Oct 2025</span>
+            <img src="firsttechfed logo.png" alt="First Tech Federal Credit Union" class="exp-logo" />
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Java Developer</h3>
+            <p class="project-desc">Remote, USA. Designed scalable Java microservices using Spring Boot and RESTful APIs. Led Agile sprints with Jenkins and GitHub CI/CD automation. Accelerated release cycles by 30% through TDD with JUnit and Selenium. Integrated Vortex messaging and Google Cloud Endpoints. Built responsive UIs with React.js and migrated databases from Oracle/SQL Server to MongoDB.</p>
+            <div class="project-stack">Java · Spring Boot · React.js · JUnit · Selenium · MongoDB · GCP · Jenkins</div>
+          </div>
+        </div>
+
+        <div class="project-row">
+          <div class="project-meta">
+            <span class="project-tag">IT Partner</span>
+            <span class="project-year">Aug 2023 – Jun 2024</span>
+            <img src="IT Partner logo.jpg" alt="IT Partner" class="exp-logo" />
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Software Engineer</h3>
+            <p class="project-desc">Tempe, USA. Led a team automating Microsoft Teams recording using Power Automate and Python scripts. Improved deployment time by 98% using Azure Functions and Azure DevOps pipelines. Built scalable RESTful APIs with Spring Boot and developed responsive web interfaces using HTML5, CSS3, JavaScript, and jQuery.</p>
+            <div class="project-stack">Python · Azure Functions · Azure DevOps · Spring Boot · Power Automate · Java</div>
+          </div>
+        </div>
+
+        <div class="project-row">
+          <div class="project-meta">
+            <span class="project-tag">Nike</span>
+            <span class="project-year">Mar 2022 – Apr 2023</span>
+            <img src="nike logo.webp" alt="Nike" class="exp-logo" />
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Software Engineer</h3>
+            <p class="project-desc">Remote, USA. Designed full-stack web applications using React.js, Spring Boot, and Java 8. Built and optimized ETL pipelines using Apache NiFi and GCP, reducing data processing time to under 5 seconds for 99% of transactions and improving supply chain efficiency by 20%. Developed SPAs with React.js and Redux, and integrated RESTful APIs across distributed systems.</p>
+            <div class="project-stack">Java · Spring Boot · React.js · Redux · Apache NiFi · GCP · Hibernate</div>
+          </div>
+        </div>
+
+        <div class="project-row">
+          <div class="project-meta">
+            <span class="project-tag">Sha Associates</span>
+            <span class="project-year">Oct 2020 – Jun 2021</span>
+            <img src="sha logo.png" alt="Sha Associates" class="exp-logo" />
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Software Engineer</h3>
+            <p class="project-desc">Visakhapatnam, India. Launched a real-time fitness recognition app using Node.js, Kotlin, and Swift, supporting 500+ users with 97% launch time under 2 seconds. Optimized SQLite/ORM for 25% memory reduction. Built UIs with Struts MVC, JSP, and Bootstrap, and developed RESTful web services with XML/JSON integration.</p>
+            <div class="project-stack">Node.js · Kotlin · Swift · Java · Hibernate · MySQL · PostgreSQL · JUnit</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-number">05</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-list">
+
+        <div class="project-row">
+          <div class="project-meta">
+            <span class="project-tag">Healthcare · Full-Stack</span>
+            <span class="project-year">2024</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Smart Healthcare Appointment & EHR System</h3>
+            <p class="project-desc">Full-stack healthcare platform for secure patient-doctor scheduling and real-time EHR access. Boosted patient engagement by 35%.</p>
+            <div class="project-stack">Java · Spring Boot · MongoDB · React.js</div>
+          </div>
+          <div class="project-action">
+            <a href="#" class="project-link">View Details <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="project-row">
+          <div class="project-meta">
+            <span class="project-tag">Cloud · Backend</span>
+            <span class="project-year">2024</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Video Transcription as a Service</h3>
+            <p class="project-desc">Full-stack transcription service using AWS Transcribe, achieving 99.9% uptime and near-instant transcript delivery at scale.</p>
+            <div class="project-stack">AWS Transcribe · Java · MongoDB · React.js</div>
+          </div>
+          <div class="project-action">
+            <a href="#" class="project-link">View Details <span>→</span></a>
+          </div>
+        </div>
+
+        <div class="project-row">
+          <div class="project-meta">
+            <span class="project-tag">Mobile · Security</span>
+            <span class="project-year">2023</span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Shopping App with Hash & Salt Function</h3>
+            <p class="project-desc">Cryptographic authentication layer for a Flutter shopping app using hash and salt algorithms. Achieved 100% password verification accuracy.</p>
+            <div class="project-stack">Flutter · Dart · Cryptography</div>
+          </div>
+          <div class="project-action">
+            <a href="#" class="project-link">View Details <span>→</span></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="connect" class="section section-dark">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-number">06</span>
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="contact-intro">If you want to know more about me or my work, or if you would just like to say hello — send me a message. I'd love to hear from you.</p>
+          <div class="contact-email">
+            <span class="contact-label">Email</span>
+            <a href="mailto:jeremiahpothula37@gmail.com" class="contact-email-link">jeremiahpothula37@gmail.com</a>
+          </div>
+          <div class="social-row">
+            <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="What's on your mind?" rows="5" required></textarea>
+            </div>
+            <div class="form-footer">
+              <label class="checkbox-label">
+                <input type="checkbox" id="sendEmail" />
+                <span>Send me a copy</span>
+              </label>
+              <button type="submit" class="btn-submit">Send Message</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2026 Jeremiah Pothula. Designed & built by me.</p>
+  </footer>
+
+  <script src="jpscript2026.js"></script>
+</body>
+</html>
